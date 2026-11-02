@@ -1,0 +1,14 @@
+# Файлы баз SQL Server (большие бинарники, восстанавливаются из скриптов)
+*.mdf
+*.ldf
+*.ndf
+
+# Секреты и строки подключения
+.env
+*.secret
+appsettings.*.local.json
+
+# Системный мусор
+.DS_Store
+Thumbs.db
+*~
